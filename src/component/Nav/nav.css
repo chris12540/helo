@@ -1,0 +1,36 @@
+aside {
+	width: 120px;
+	height: 100vh;
+	background: lightblue;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.profile {
+	width: calc(100% - 20px);
+	margin: 10px;
+}
+
+.profile img {
+	width: 100%;
+	border-radius: 100%;
+	background: #eee;
+}
+
+.profile h1 {
+	font-weight: lighter;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+	margin: 10px 0;
+}
+
+.logout {
+	margin: 40px 0;
+	background: lightskyblue;
+	padding: 15px 0;
+}

@@ -1,0 +1,52 @@
+.dashboard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 50px 0px;
+}
+
+.search {
+	width: 500px;
+	background: lightblue;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.searchBar {
+	position: relative;
+}
+
+.searchBar > input {
+	width: 250px;
+	height: 18px;
+	padding: 5px;
+}
+
+.search-reset {
+	position: absolute;
+	top: 5px;
+	left: 235px;
+	padding: 0 6px 3px 6px;
+	border-radius: 100%;
+	background: lightgray;
+}
+
+.search-reset:hover {
+	cursor: pointer;
+	background: lightcoral;
+}
+
+.post {
+	height: 50px;
+	width: 500px;
+	padding: 10px;
+	background: lightblue;
+	display: flex;
+	margin-top: 20px;
+}
+
+.post > img {
+	height: 100%;
+}

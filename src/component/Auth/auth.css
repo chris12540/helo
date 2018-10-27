@@ -1,0 +1,41 @@
+.auth {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signin {
+	height: 200px;
+	width: 300px;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	background: lightblue;
+	padding: 30px;
+}
+
+.signin > input {
+	margin: 20px 0;
+	height: 25px;
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+	outline: none;
+}
+
+.signin > button {
+	width: 150px;
+	margin: 5px auto;
+	border: none;
+	background: transparent;
+}
+
+.signin > button:hover {
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	cursor: pointer;
+	color: gray;
+}
